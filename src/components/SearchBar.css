@@ -8,8 +8,8 @@
   border: 0;
   border: 1px solid black;
   border-radius: 5px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border-right: white;
   font-size: 18px;
   padding: 15px;
@@ -24,7 +24,7 @@
   display: grid;
   place-items: center;
   border: 1px solid black;
-  border-radius: 0px 5px 5px 0px;
+  border-radius: 0 5px 5px 0;
   border-left: white;
 }
 
@@ -41,7 +41,7 @@ input:focus {
   width: 300px;
   height: 200px;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   overflow: hidden;
   overflow-y: auto;
 }
