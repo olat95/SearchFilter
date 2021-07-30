@@ -1,5 +1,5 @@
-import './App.css';
-import JSONDATA from './MOCK_DATA.json';
+import './App.css'
+import JSONDATA from './MOCK_DATA.json'
 import SearchBar from './components/SearchBar';
 
 function App () {
