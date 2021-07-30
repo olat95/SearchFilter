@@ -1,16 +1,16 @@
 import './App.css'
 import JSONDATA from './MOCK_DATA.json'
-import SearchBar from './components/SearchBar';
+import SearchBar from './components/SearchBar'
 
 function App () {
   return (
     <div className='App'>
       <SearchBar placeholder='Enter the user name....' data={JSONDATA} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
 
 /* <input
             type="text"
